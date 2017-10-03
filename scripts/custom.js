@@ -24,7 +24,7 @@ $(function(){
     items: '1.5',
     center: true,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 4500,
     animateIn: true,
     animateOut: false,
