@@ -27,7 +27,7 @@ $(function(){
     autoplay: true,
     autoplayTimeout: 4500,
     animateIn: true,
-    animateOut: true,
+    animateOut: false,
     loop: true
   });
 });
