@@ -4080,7 +4080,7 @@ tbody.collapse.show {
 .jumbotron {
   margin-bottom: 1rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  border-radius: 0.3rem; 
 }
 
 
@@ -8176,4 +8176,3 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important;
 }
-/*# sourceMappingURL=bootstrap.css.map */

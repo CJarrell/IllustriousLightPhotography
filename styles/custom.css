@@ -2,5 +2,99 @@
 /*Author: Colby Jarrell*/
 /*Copyright: Colby Jarrell 2017 | All rights reserved*/
 
-
 /*Typography*/
+/*Navigation - Logo*/
+.hide-on-mobile{
+  visibility: hidden;
+}
+.navbar-brand{
+  max-height:175px;
+}
+@media screen and (max-width: 320px) {
+  .navbar-brand{
+    max-width: 240px !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .navbar-brand{
+    max-width: 270px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand{
+    max-width: 275px !important;
+  }
+}
+/*About Section*/
+
+.description{
+  margin: 0 auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  
+}
+@media screen and (max-width: 320px) {
+  .description{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .description{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*Owl Carousel*/
+
+/*Copyright*/
+.copy-text{
+  font-size: .9em;
+}
+.svg-filters{
+  margin-bottom: 20px;
+}
+.services-item{
+  padding: 22px;
+  line-height: 45px;
+}
+.services-item .services-svg{
+  fill: #9d9d9d;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  display: block;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}          
+.services-item:hover .services-svg{
+  fill: #093048;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}        
+/*Social Icons*/
+#social-container ul{
+  margin-top: 30px;
+}
+#social-container ul li{
+  list-style-type: none;
+  display: inline;
+
+}   
+#social-container ul li a img{
+  max-width: 50px;
+  float: left;
+  padding: .5em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}     
