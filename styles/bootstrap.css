@@ -636,7 +636,11 @@ pre code {
   padding-left: 15px;
   width: 100%;
 }
-
+@media (max-width:320px) {
+  #navigation-container{
+    padding-left: 0px !important;
+  }
+}
 .row {
   display: -ms-flexbox;
   display: flex;

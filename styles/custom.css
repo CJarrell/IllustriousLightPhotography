@@ -3,6 +3,23 @@
 /*Copyright: Colby Jarrell 2017 | All rights reserved*/
 
 /*Typography*/
+/*Disable image saving*/
+/*img {
+  pointer-events: none;
+}
+a {
+  pointer-events: none;
+}*/
+/*Custom Padding*/
+.top-pad-sm{
+  padding-top: 12px;
+}
+.top-pad-md{
+  padding-top: 25px;
+}
+.top-pad-lg{
+  padding-top: 50px;
+}
 /*Navigation - Logo*/
 .hide-on-mobile{
   visibility: hidden;
@@ -12,7 +29,7 @@
 }
 @media screen and (max-width: 320px) {
   .navbar-brand{
-    max-width: 240px !important;
+    max-width: 200px !important;
   }
 }
 @media screen and (max-width: 520px) {
@@ -26,12 +43,19 @@
   }
 }
 /*About Section*/
-
 .description{
   margin: 0 auto;
   padding-left: 75px;
   padding-right: 75px;
   
+}
+section#about{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.about-image{
+  padding: 3px;
+  max-width: 200px;
 }
 @media screen and (max-width: 320px) {
   .description{
@@ -39,6 +63,14 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  section#about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about-image{
+    padding: 3px;
+    max-width: 100px;
+  }   
 }
 @media screen and (max-width: 520px) {
   .description{
@@ -46,9 +78,20 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  section#about{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .about-image{
+    padding: 3px;
+    max-width: 150px;
+  }
 }
-/*Owl Carousel*/
 
+/*Owl Carousel*/
+.carousel-wrapper{
+  max-height: 1000px;
+}
 /*Copyright*/
 .copy-text{
   font-size: .9em;

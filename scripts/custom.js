@@ -1,5 +1,6 @@
 // Custom JS for CJPhoto.com Site
 
+
 // Venobox Init
 $(document).ready(function(){
   $('.venobox').venobox({
@@ -7,7 +8,8 @@ $(document).ready(function(){
     border: '3px',             // default: '0'
     bgcolor: '#ffffff',         // default: '#fff'
     numeratio: true,            // default: false
-    infinigall: true            // default: false
+    infinigall: true,            // default: false
+
   });
 });
 // Owl carousel
@@ -25,13 +27,13 @@ $(document).ready(function(){
   });
   
 });
-
-
 // Disable Right Clicking
-// $(document).ready(function(){
-//   $('img').on("contextmenu", function(e){
-//     return false;
-//   });
-// });
+$(document).ready(function(){
+  $('img').on("contextmenu", function(e){
+    return false;
+  });
+});
+
+
 
 

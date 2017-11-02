@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="styles/owl.theme.default.min.css" />
 </head>
 <body>
-  <div class="container-fluid">
+  <div id="navigation-container" class="container-fluid">
     <nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,16 +34,13 @@
       <div id="navbarText" class="collapse navbar-collapse mx-auto">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Gallery</a>
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Prices</a>
-          </li>  
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" href="#contact">CONTACT US</a>
           </li> 
         </ul>
       </div>
@@ -52,31 +49,89 @@
 
   <!-- OwlCarousel -->
   <section id="home" class="jumbotron jumbotron-fluid">
-    <div id="owl-images" class="owl-carousel owl-theme">
-      <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061153/AirBNB-PortlandOR-Millers-12_namwzx.jpg" class="venobox" data-gall="jumbo-gallery">
-        <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061153/AirBNB-PortlandOR-Millers-12_namwzx.jpg" alt="Photography, water lily" class="img-responsive" />
-      </a>
-      <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061153/9-23-2017-JustinCupit-1-14_k6iuen.jpg" class="venobox" data-gall="jumbo-gallery">
-        <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061153/9-23-2017-JustinCupit-1-14_k6iuen.jpg" alt="Photography, water lily" class="img-responsive" />
-      </a>
-      <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061153/AirBNB-PortlandOR-Millers-11_f4hadu.jpg" class="venobox" data-gall="jumbo-gallery">
-        <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061153/AirBNB-PortlandOR-Millers-11_f4hadu.jpg" alt="Photography, water lily" class="img-responsive" />
-      </a>
-      <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061152/AirBNB-PortlandOR-Millers-1_pcukmv.jpg" class="venobox" data-gall="jumbo-gallery">
-        <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061152/AirBNB-PortlandOR-Millers-1_pcukmv.jpg" alt="Photography, water lily" class="img-responsive" />
-      </a>
-      <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061151/2028MesaDr-Peyer-INT-26_yjpnu4.jpg" class="venobox" data-gall="jumbo-gallery">
-        <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061151/2028MesaDr-Peyer-INT-26_yjpnu4.jpg" alt="Photography, water lily" class="img-responsive" />
-      </a>
-      <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061149/9-23-2017-JustinCupit-1_copy_2_bcji3e.jpg" class="venobox" data-gall="jumbo-gallery">
-        <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/v1507061149/9-23-2017-JustinCupit-1_copy_2_bcji3e.jpg" alt="Photography, water lily" class="img-responsive" />
-      </a>                                                        
-    </div>
+    <div class="carousel-wrapper">
+      <div id="owl-images" class="owl-carousel owl-theme">
+        <!-- Showcase Trio -->
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1509581879/PittockMansion_MountHood-_ymqarm.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1509581879/PittockMansion_MountHood-_ymqarm.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1509582050/Creation-8071_sspnml.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1509582050/Creation-8071_sspnml.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1509582149/RoseCityRoseGarden-7965_mwv9rb.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1509582149/RoseCityRoseGarden-7965_mwv9rb.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>      
+        <!-- Round 1 -->
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061153/AirBNB-PortlandOR-Millers-12_namwzx.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061153/AirBNB-PortlandOR-Millers-12_namwzx.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061153/9-23-2017-JustinCupit-1-14_k6iuen.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061153/9-23-2017-JustinCupit-1-14_k6iuen.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061153/AirBNB-PortlandOR-Millers-11_f4hadu.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061153/AirBNB-PortlandOR-Millers-11_f4hadu.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061152/AirBNB-PortlandOR-Millers-1_pcukmv.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061152/AirBNB-PortlandOR-Millers-1_pcukmv.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061151/2028MesaDr-Peyer-INT-26_yjpnu4.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061151/2028MesaDr-Peyer-INT-26_yjpnu4.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/9-23-2017-JustinCupit-1_copy_2_bcji3e.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/9-23-2017-JustinCupit-1_copy_2_bcji3e.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <!-- Round 2 -->
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061150/2028MesaDr-Peyer-EXT-5_ud35us.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061150/2028MesaDr-Peyer-EXT-5_ud35us.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061150/8-13-2017-iModelEvent-1-9_phbehd.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061150/8-13-2017-iModelEvent-1-9_phbehd.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/1376DesotoAve-BenitaTurner-EXT-1_pxrqkr.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/1376DesotoAve-BenitaTurner-EXT-1_pxrqkr.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/2430HillcrDr-AdriBerlin-INT-2_t9vpyb.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/2430HillcrDr-AdriBerlin-INT-2_t9vpyb.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061146/1265OldfieldRd-EXT-AshleyPruitt-1_ry7md6.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061146/1265OldfieldRd-EXT-AshleyPruitt-1_ry7md6.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <!-- Round 3 -->
+        <a href="http://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/1376DesotoAve-BenitaTurner-EXT-1-7_wzlkpu.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="http://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/1376DesotoAve-BenitaTurner-EXT-1-7_wzlkpu.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/1265OldfieldRd-AshleyPruitt-31_w0okec.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/1265OldfieldRd-AshleyPruitt-31_w0okec.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/8-26-2017-BrittneyCupit-1-15_wkwsd9.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/8-26-2017-BrittneyCupit-1-15_wkwsd9.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/1265OldfieldRd-AshleyPruitt-26_pzqpjd.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061149/1265OldfieldRd-AshleyPruitt-26_pzqpjd.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <a href="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061146/1265OldfieldRd-AshleyPruitt-14_uy9eef.jpg" class="venobox" data-gall="jumbo-gallery">
+          <img src="https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_center,h_1000,w_1800/v1507061146/1265OldfieldRd-AshleyPruitt-14_uy9eef.jpg" alt="Photography, water lily" class="img-responsive" />
+        </a>
+        <!-- Round 4 -->
+      </div>
+    </div>  
   </section>
   <section id="about">
-    <div class="description container-fluid text-justified">
-      <p class="navbar-text text-justify"><span style="color: black">Real Estate Photography, Portraiture and Events.</span><a href="#contact"> Illustrious Light</a> is dedicated to making captivating images. Our <span style="color: black">Real Estate Photos</span> sell million dollar homes. Our <span style="color: black">Portrait Photos</span> accentuate your soul. And, our <span style="color: black">Event Photos</span> remind you why it was worth it, to spend all that time planning an event in the first place. We are here to preserve your memories, create your hype, and offer a unique perspective.</br></br>Our <span style="color: black">Mantra</span> is <span style="color: black">Capture</span>, <span style="color: black">Enhance</span>, <span style="color: black">Deliver</span>, <span style="color: black">Inspire</span>.<a href="#contact"> Book a Shoot Today</a></p>
+    <div class="description container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+          <h5 class="orange">ABOUT</h5>
+          <p class="navbar-text text-justify"><span style="color: black">Real Estate Photography, Portraiture and Events.</span><a href="#contact"> Illustrious Light</a> is dedicated to making captivating images. Our <span style="color: black">Real Estate Photos</span> sell million dollar homes. Our <span style="color: black">Portrait Photos</span> accentuate your soul. And, our <span style="color: black">Event Photos</span> remind you why it was worth it, to spend all that time planning an event in the first place. We are here to preserve your memories, create your hype, and offer a unique perspective.</br></br>Our <span style="color: black">Mantra</span> is <span style="color: black">Photograph</span>, <span style="color: black">Enhance</span>, <span style="color: black">Deliver</span>, <span style="color: black">Inspire</span>.<a href="#contact"> Book a Shoot Today</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+          <img class="img-responsive about-image center-block" alt="About image, Colby Jarrell, founder" style="border: .75px solid grey; border-radius: 200px" src="images/about-img.jpg" />
+          <p class="top-pad-sm"><span style="color:grey">FOUNDER</span> COLBY JARRELL</p> 
+        </div>
+      </div>
     </div>
+  </section>
+  <section id="contact">
+    <script type="text/javascript" src="https://form.jotform.com/jsform/70368017344151"></script>
   </section>
     
   <!-- Copyright Section -->
@@ -134,7 +189,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script type="text/javascript" src="scripts/bootstrap.js"></script>
   <script type="text/javascript" src="scripts/jquery.easing.js"></script>
-  <script src="scripts/scrolling-nav.js"></script>
+  <script type="text/javascript" src="scripts/scrolling-nav.js"></script>
   
   <script type="text/javascript" src="scripts/venobox.js"></script>
   <script type="text/javacript" src="scripts/owlcarousel/owl.carousel.min.js"></script>
