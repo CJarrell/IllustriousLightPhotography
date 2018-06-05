@@ -50,7 +50,7 @@ a {
   
 }
 section#about{
-  padding-top: 35px;
+  padding-top: 50px;
   padding-bottom: 35px;
 }
 .about-image{
@@ -64,7 +64,7 @@ section#about{
     padding-right: 10px;
   }
   section#about{
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 20px;
   }
   .about-image{
@@ -75,7 +75,7 @@ section#about{
 @media screen and (max-width: 520px) {
   .description{
     margin: 0 auto;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-right: 15px;
   }
   section#about{
@@ -86,11 +86,6 @@ section#about{
     padding: 3px;
     max-width: 150px;
   }
-}
-
-/*Owl Carousel*/
-.carousel-wrapper{
-  max-height: 1000px;
 }
 /*Copyright*/
 .copy-text{
